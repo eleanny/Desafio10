@@ -50,19 +50,21 @@
 	height: 90px;
 	padding: 12px;
 	color: #FFFFFF;
-	margin-right: 30px;
-	margin-left: 50px;
+	margin-right: 20px;
+	margin-left: 40px;
 }
 .information__icono--3{
 	border: solid 1px #707070;
-	border-radius: 90px;
+	border-radius: 80px;
 	background-color: #707070;
-	width: 300px;
+	width: 10%;
 	padding:20px;
+	
 }
 .information__icono--3 p{
 	display: inline-block;
-    padding: 40px;
+	padding-top: 20px;
+    padding-bottom: 20px;
     margin-right: 0px;
 	margin-left: 0px;
 }
@@ -105,21 +107,13 @@
 .banner{
    background-color: #E5E8E8;
    height: 100px;
-   padding: 0;
-   margin: 0;
-}
-.banner a{
-	float:left;
-	margin-left: 200px;
 }
 .banner h2{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 1.3em;
 	color: #707070;
-	margin-left: 100px;
-	margin-bottom: 0;
-	float:left;
+	
 }
 .footer{
 	background-color: black;
@@ -128,9 +122,16 @@
 @media only screen and (max-width: 767px){
 	
 	.navbar img{
+		margin-left: 0;
 		width: 20%;
 	}
-	.perfil__foto{
+	.header{
+		height: 630px;
+	}
+	.header h2{
+		margin-top: 30px;
+	}
+    .perfil__foto{
 		width: 100%;
 		text-align: center;
 	}
@@ -143,6 +144,10 @@
 		width: 100%;
 		text-align: center;
         margin-top: 20px;
+	}
+	.information__icono--2{
+	  margin-right: 10px;
+	  margin-left: 0px;
 	}
 	.information__icono--3{
 	  border: solid 1px #707070;
@@ -160,8 +165,13 @@
     .perfil{
 	   padding-top: 40px;
     }
+    .banner__arrow{
 
+    }
+    .banner__arrow h2{
+		display: none;
+	}
 	.footer img{ 
-       width: 15%;
+       width: 30%;
 	}
 }
