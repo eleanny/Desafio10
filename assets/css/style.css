@@ -135,6 +135,9 @@
 		width: 100%;
 		text-align: center;
 	}
+	.perfil__parrafo{
+		display:none;
+	}
 	.perfil__inner--2{
 		margin-top: 60px;
 		margin-left: 100px;
