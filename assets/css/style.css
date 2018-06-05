@@ -83,7 +83,7 @@
 }
 .perfil__parrafo{
 	
-	margin-left: 300px;
+	margin-left: 200px;
 
 }
 .perfil__inner{
@@ -138,11 +138,13 @@
 		display:none;
 	}
 	.perfil__inner--2{
-		margin-top: 60px;
+		margin: 50px;
+		margin-bottom: 0px;
+		padding-left: 50px;
 		text-align: center;
 	}
 	.perfil__inner--3{
-		margin-left: 40px;
+		margin-left: 70px;
 		text-align: center;
 	}
 	.information__icono--2{
