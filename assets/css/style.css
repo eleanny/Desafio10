@@ -51,18 +51,18 @@
 	padding: 12px;
 	color: #FFFFFF;
 	margin-right: 20px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 .information__icono--3{
 	border: solid 1px #707070;
 	border-radius: 80px;
 	background-color: #707070;
 	width: 10%;
-	padding:20px;
+	padding:30px;
 	
 }
 .information__icono--3 p{
-	display: inline-block;
+	display:inline-block;
 	padding-top: 20px;
     padding-bottom: 20px;
     margin-right: 0px;
@@ -92,7 +92,7 @@
 }
 .perfil__inner--2{
 	border-radius: 150px;
-	margin-left: 150px;
+	margin-left: 55px;
 	height: 200px;
 }
 .perfil__icono{
@@ -119,58 +119,43 @@
 	background-color: black;
 	text-align: center;
 }
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 700px){
 	
 	.navbar img{
-		margin-left: 0;
 		width: 20%;
 	}
 	.header{
-		height: 630px;
+		height: 650px;
 	}
 	.header h2{
 		margin-top: 30px;
 	}
-    .perfil__foto{
-		width: 100%;
-		text-align: center;
-	}
+	.perfil{
+	   padding-top: 50px;
+    }
 	.perfil__parrafo{
 		display:none;
 	}
 	.perfil__inner--2{
 		margin-top: 60px;
-		margin-left: 100px;
-		margin-right: 100px;
+		text-align: center;
 	}
 	.perfil__inner--3{
-		width: 100%;
+		margin-left: 30px;
 		text-align: center;
-        margin-top: 20px;
 	}
 	.information__icono--2{
-	  margin-right: 10px;
+	  margin-right: 0px;
 	  margin-left: 0px;
 	}
 	.information__icono--3{
-	  border: solid 1px #707070;
-	  border-radius: 80px;
-	  background-color: #707070;
-	  width: 40px;
-	  padding: 30px;
-	  margin-bottom: 50px;
+	  margin-right: 0px;
+	  margin-left: 0px;
 
 	}
 	.information__icono--3 p{
-	 
 	  display: none;  
 	}
-    .perfil{
-	   padding-top: 40px;
-    }
-    .banner__arrow{
-
-    }
     .banner__arrow h2{
 		display: none;
 	}
